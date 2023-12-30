@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers  
+ 
+   
+### 
+GET http://localhost:3000/subscribers/659025b9de901c9c4a3d6972
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "ruhiat",
+    "subscribedToChannel": "Zuhad YT"
+}
+
+### 
+DELETE http://localhost:3000/subscribers/659017dc2eb49e023a380bad
+
+### 
+PATCH http://localhost:3000/subscribers/659021439c6c9ca602b6c572
+Content-Type: application/json
+
+{
+    "name": "harkasy"
+}
